@@ -1,0 +1,520 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2016-02-08T17:26:26.402Z",
+        "time": 34.515000064857304,
+        "request": {
+          "method": "POST",
+          "url": "http://localhost:3000/store/payload/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "http://localhost:3000"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:3000"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:3000/documentation?access_token=12345"
+            },
+            {
+              "name": "Cookie",
+              "value": "sid=Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "56"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "sid",
+              "value": "Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 919,
+          "bodySize": 56,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\n  \"a\": 0,\n  \"b\": 0,\n  \"operator\": \"+\",\n  \"equals\": 0\n}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2016 17:26:26 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 88,
+            "mimeType": "application/json",
+            "compression": -23
+          },
+          "redirectURL": "",
+          "headersSize": 227,
+          "bodySize": 111,
+          "_transferSize": 338
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.36599999293685,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.09900005534291201,
+          "wait": 33.243999932892635,
+          "receive": 0.806000083684907,
+          "ssl": -1
+        },
+        "connection": "1188677"
+      },
+      {
+        "startedDateTime": "2016-02-08T17:27:19.042Z",
+        "time": 4.1550000896677375,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:3000/swaggerui/images/favicon-16x16.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "If-None-Match",
+              "value": "\"7118b318df5b5920e9c1eab4996548a38cd94f3a\""
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:3000"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:3000/documentation?access_token=12345"
+            },
+            {
+              "name": "Cookie",
+              "value": "sid=Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Fri, 05 Feb 2016 15:49:05 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "sid",
+              "value": "Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 957,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2016 17:27:19 GMT"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "last-modified",
+              "value": "Fri, 05 Feb 2016 15:49:05 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "etag",
+              "value": "\"7118b318df5b5920e9c1eab4996548a38cd94f3a\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 645,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": 259,
+          "bodySize": 0,
+          "_transferSize": 259
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.44600002001971,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08000002708286097,
+          "wait": 2.352999988943339,
+          "receive": 1.2760000536218277,
+          "ssl": -1
+        },
+        "connection": "1188677"
+      },
+      {
+        "startedDateTime": "2016-02-08T17:27:21.695Z",
+        "time": 2.9299999587237835,
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:3000/swaggerui/images/favicon-16x16.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "If-None-Match",
+              "value": "\"7118b318df5b5920e9c1eab4996548a38cd94f3a\""
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:3000"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:3000/documentation?access_token=12345"
+            },
+            {
+              "name": "Cookie",
+              "value": "sid=Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Fri, 05 Feb 2016 15:49:05 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "sid",
+              "value": "Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 957,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2016 17:27:21 GMT"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "last-modified",
+              "value": "Fri, 05 Feb 2016 15:49:05 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "etag",
+              "value": "\"7118b318df5b5920e9c1eab4996548a38cd94f3a\""
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "content-type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 645,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": 259,
+          "bodySize": 0,
+          "_transferSize": 259
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.558999949134886,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08000002708286091,
+          "wait": 1.7099999822676228,
+          "receive": 0.5810000002384137,
+          "ssl": -1
+        },
+        "connection": "1188677"
+      },
+      {
+        "startedDateTime": "2016-02-08T17:27:34.601Z",
+        "time": 7.8569999895989895,
+        "request": {
+          "method": "POST",
+          "url": "http://localhost:3000/store/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "http://localhost:3000"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:3000"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:3000/documentation?access_token=12345"
+            },
+            {
+              "name": "Cookie",
+              "value": "sid=Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "30"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "sid",
+              "value": "Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 928,
+          "bodySize": 30,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "a=5&b=6&operator=%2B&equals=11",
+            "params": [
+              {
+                "name": "a",
+                "value": "5"
+              },
+              {
+                "name": "b",
+                "value": "6"
+              },
+              {
+                "name": "operator",
+                "value": "%2B"
+              },
+              {
+                "name": "equals",
+                "value": "11"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2016 17:27:34 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 89,
+            "mimeType": "application/json",
+            "compression": -29
+          },
+          "redirectURL": "",
+          "headersSize": 227,
+          "bodySize": 118,
+          "_transferSize": 345
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.456999987363815,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08599995635449897,
+          "wait": 6.634999997913836,
+          "receive": 0.6790000479668397,
+          "ssl": -1
+        },
+        "connection": "1188677"
+      }
+    ]
+  }
+}

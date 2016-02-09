@@ -1,0 +1,266 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2016-02-08T15:03:08.941Z",
+        "time": 7.257999968715012,
+        "request": {
+          "method": "PUT",
+          "url": "http://localhost:3000/v1/sum/add/45/10",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "http://localhost:3000"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:3000"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:3000/documentation?access_token=12345"
+            },
+            {
+              "name": "Cookie",
+              "value": "sid=Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "sid",
+              "value": "Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 925,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 401,
+          "statusText": "Unauthorized",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2016 15:03:08 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "WWW-Authenticate",
+              "value": "Bearer"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 76,
+            "mimeType": "application/json",
+            "compression": -33
+          },
+          "redirectURL": "",
+          "headersSize": 263,
+          "bodySize": 109,
+          "_transferSize": 372
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.38499990478158,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.07300009019672898,
+          "wait": 6.1219999333843615,
+          "receive": 0.6780000403523418,
+          "ssl": -1
+        },
+        "connection": "1137439"
+      },
+      {
+        "startedDateTime": "2016-02-08T15:03:31.314Z",
+        "time": 8.120000013150275,
+        "request": {
+          "method": "PUT",
+          "url": "http://localhost:3000/v1/sum/add/45/10",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Authorization",
+              "value": "Bearer 12345"
+            },
+            {
+              "name": "Origin",
+              "value": "http://localhost:3000"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:3000"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.8,en;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            },
+            {
+              "name": "Referer",
+              "value": "http://localhost:3000/documentation?access_token=12345"
+            },
+            {
+              "name": "Cookie",
+              "value": "sid=Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "sid",
+              "value": "Fe26.2**ee3be82c9fcc1d154068526c262092bcbf91606457b23605f78df2b0666b80de*exwCmlweV_EW3oooeWrdZA*fqJFLZGJxvsdUje_4SltSwPC6xSFrAemAVfM5TnorpV52zQXwL9kU-9ABiYd_HAa-GydXlBh9k2k2SPYY-cDUGDRrM-yruc4GBOf3e8I9yqXpgGmWrALCLeA68O_p3wp0BksReJECVoXzRTZAdUX5g_9DiUbHG3NmsqXqaNJ5CJDub7dfIDgIJ9trR1o49V8K3FMuR06oHxKc-FK2Wz9_FG4psdo2S3tFJRQ-P8KAIg**c30d0d34a2f07848a7fdb60b6f307884ae84267fdbb6689eafac8134ff9347b0*NRTKVKPwu-023ShDIQM_FkO1bLPedm7bHbCDE3LLmkc",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 954,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2016 15:03:31 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 13,
+            "mimeType": "application/json",
+            "compression": -36
+          },
+          "redirectURL": "",
+          "headersSize": 227,
+          "bodySize": 49,
+          "_transferSize": 276
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.503999995999038,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.10699999984353803,
+          "wait": 6.706999964080754,
+          "receive": 0.8020000532269451,
+          "ssl": -1
+        },
+        "connection": "1137439"
+      }
+    ]
+  }
+}

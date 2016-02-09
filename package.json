@@ -1,0 +1,33 @@
+{
+  "name": "swagger-har",
+  "version": "1.0.0",
+  "description": "A module that converts OpenAPI (aka Swagger)] schemas object into an arrau HAR request objects.",
+  "keywords": [
+      "swagger",
+      "har"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Jones <glennjonesnet@gmail.com> (http://glennjones.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "hoek": "^3.0.4",
+    "joi": "7.2.3",
+    "json-schema-ref-parser": "^2.2.0",
+    "httpsnippet": "^1.16.5"
+  },
+  "devDependencies": {
+    "inert": "^3.2.0",
+    "vision": "^4.0.1",
+    "blipp": "^2.3.0",
+    "good": "^6.5.0",
+    "good-console": "^5.3.0",
+    "lab": "8.2.0",
+    "code": "2.1.0",
+    "hapi": "^13.0.0",
+    "wreck": "7.0.0",
+    "coveralls": "2.11.6"
+  }
+}
