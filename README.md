@@ -4,11 +4,11 @@
 
 This module converts [OpenAPI (aka Swagger)](https://openapis.org/) schemas object into an array of [HAR](http://hapijs.com/) request objects.
 
-```
+````bash
 $ npm install swagger-har
 ```
 
-```
+``` javascript
 const SwaggerHAR  = require('swagger-har');
 
 SwaggerHAR.toRequests( json, function( err, requestArr ){
