@@ -10,13 +10,30 @@ $ npm install swagger-har
 
 ``` javascript
 const SwaggerHAR  = require('swagger-har');
+const options = {};
 
-SwaggerHAR.toRequests( json, function( err, requestArr ){
+SwaggerHAR.toRequests( json, options, function( err, requestArr ){
     // do something with requestArr
 });
 
 ```
 
+## Options
+```json
+const defaults = {
+    'useExamples': true,
+    'useDefaults': true,
+    'defaults': {
+        string: 'string',
+        integer: '0',
+        number: '0',
+        boolean: 'true',
+        file: 'filename.txt'
+    },
+    path: '/sum',
+    method: 'get'
+};
+```
 
 
 
