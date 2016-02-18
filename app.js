@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('./lib/convert');
+module.exports = require('./lib/index');
