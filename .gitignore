@@ -16,6 +16,3 @@ npm-debug.log
 .DS_Store
 .vscode
 .coveralls.yml
-
-public/swaggerui/static.html
-public/swaggerui/static.json

@@ -1,6 +1,6 @@
 {
   "name": "swagger-har",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A module that converts OpenAPI (aka Swagger) schema object into an array HAR request objects.",
   "keywords": [
       "swagger",
@@ -15,6 +15,7 @@
   "dependencies": {
     "hoek": "^3.0.4",
     "joi": "7.2.3",
+    "swagger-exemplar": "glennjones/swagger-exemplar",
     "json-schema-ref-parser": "^2.2.0"
   },
   "devDependencies": {
