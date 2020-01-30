@@ -13,8 +13,8 @@
   "author": "Glenn Jones <glennjonesnet@gmail.com> (http://glennjones.net/)",
   "license": "MIT",
   "dependencies": {
-    "hoek": "^3.0.4",
-    "joi": "7.3.0",
+    "hoek": "^4.2.1",
+    "joi": "8.1.0",
     "swagger-exemplar": "glennjones/swagger-exemplar",
     "json-schema-ref-parser": "^2.2.0"
   },
