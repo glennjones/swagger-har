@@ -1,0 +1,47 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    // http://eslint.org/docs/user-guide/configuring#extending-configuration-files
+    "extends": ["airbnb-base", "airbnb-base/rules/strict", "plugin:promise/recommended", "plugin:prettier/recommended"],
+    "plugins": ["prettier"],
+    "rules": {
+      "no-plusplus": 0,
+      "linebreak-style": 0,
+      "max-len": [
+        "error",
+        120,
+        2,
+        {
+          "ignoreUrls": true,
+          "ignoreComments": false,
+          "ignoreRegExpLiterals": true,
+          "ignoreStrings": true,
+          "ignoreTemplateLiterals": true,
+        },
+      ],
+      // disallow reassignment of function parameters
+      // disallow parameter object manipulation except for specific exclusions
+      // rule: http://eslint.org/docs/rules/no-param-reassign.html
+      "no-param-reassign": [
+        "error",
+        {
+            "props": true,
+            "ignorePropertyModificationsFor": [
+            "acc", // for reduce accumulators
+            "e", // for e.returnvalue
+            "ctx", // for Koa routing
+            "req", // for Express requests
+            "request", // for Express requests
+            "res", // for Express responses
+            "response", // for Express responses
+            "$scope", // for Angular 1 scopes
+            "state", // for Vuex mutations
+          ],
+        },
+      ],
+      "prettier/prettier": "error",
+    },
+  };
