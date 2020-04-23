@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@hapi/hoek": "^9.0.2",
-    "@hapi/joi": "^17.1.0",
+    "@hapi/joi": "^17.1.1",
     "call-me-maybe": "^1.0.1",
     "g": "^2.0.1",
     "json-schema-ref-parser": "^7.1.3",
