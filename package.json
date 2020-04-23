@@ -14,7 +14,7 @@
   "author": "Glenn Jones <glennjonesnet@gmail.com> (http://glennjones.net/)",
   "license": "MIT",
   "dependencies": {
-    "@hapi/hoek": "^9.0.2",
+    "@hapi/hoek": "^9.0.3",
     "@hapi/joi": "^17.1.0",
     "call-me-maybe": "^1.0.1",
     "g": "^2.0.1",
